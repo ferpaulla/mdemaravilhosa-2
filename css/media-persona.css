@@ -1,0 +1,29 @@
+@media (min-width: 1024px) {
+    .menu-desktop {
+        display: inline;
+    }
+    .menu-mobile {
+        display: none;
+    }
+    .persona{
+        display: flex;
+    }
+
+    .persona img {
+        max-width: 50%;
+    }
+    .sobre-persona {
+        text-align: left;
+    }
+
+    .historia {
+        padding: 15px 200px;
+    }
+
+    .recomendados > div {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+

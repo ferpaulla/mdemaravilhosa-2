@@ -1,0 +1,263 @@
+/* Geral */
+
+* {
+    font-family: 'Montserrat', 'Roboto+Slab', 'Sans';
+    color:  white;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+/* Nav */
+
+nav.topbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    background-color: #63458a;
+    min-height: 70px;
+}
+
+.menu-mobile {
+    direction: inline;
+    padding-right: 20px;
+}
+
+.menu-desktop {
+    display: none;
+}
+
+.menu-desktop ul li {
+    display: inline;
+}
+
+.menu-desktop ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.imgbar > img {
+    max-width: 50%;
+}
+
+.menu-mobile img {
+    max-width: 45px;
+}
+
+ 
+/* header */
+
+header {
+    background: url(../img/bg-banner-claro.png);
+    background-size: cover;
+    min-height: 85vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 25px;
+}
+
+header > div {
+    text-align: left;
+    max-width: 600px;
+}
+
+header .btn1 {
+    font-weight: 600;
+    background-color:  #e4b7e5;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 18px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Sobre */
+
+.sobre {
+    background-color: #b288c0;
+    text-align: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+
+.sobre img {
+    max-width: 200px;  
+ }
+
+ .sobre p {
+    font-weight: bold;
+    text-align: center;
+    padding: 0 15%;
+ }
+
+/* Mulheres */
+
+.mulheres {
+    background-color: #dbcadb;
+    padding: 20px 0;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 1.6em;
+    text-align: center;
+}
+
+.mulheres h2 {
+    color: #63458a;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mulheres h3 {
+    font-size: 15px;
+}
+
+.mulheres div a img {
+    width: 50px;
+}
+
+.mulheres .btn2 {
+    font-weight: 600;
+    background-color:  #ad82ad;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    max-width: 180px;
+    text-align: center;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+}
+
+.mulheres h2 {
+    padding: 30px 0;
+}
+
+
+/* Equipe */
+
+.equipe {
+    background-color: #63458a;
+    padding: 30px;
+}
+
+.equipe h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-gap: 1.3em;
+}
+
+.equipe .btn3 {
+    font-weight: 600;
+    background-color:  #e4b7e5;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Footer */
+
+.geral {
+    background-color: rgb(66, 65, 65);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 1em;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu {
+    padding: 20px 0;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo p {
+    padding: 10px;
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+    justify-content: center;
+}
+
+.redes {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes h2 {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.redes img {
+    width: 20px;
+    display: inline;
+    justify-content: center;
+}
+
+.rodape {
+    background-color: rgb(41, 39, 39);
+    font-size: 8px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'roboto', arial;
+}
+

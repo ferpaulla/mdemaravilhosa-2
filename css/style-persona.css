@@ -1,0 +1,291 @@
+/* Geral */
+
+* {
+    font-family: 'Montserrat', 'Roboto+Slab', 'Sans';
+    color: #63458a;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+/* Nav */
+
+nav.topbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    background-color: #63458a;
+    min-height: 70px;
+}
+
+.menu-mobile {
+    direction: inline;
+    padding-right: 20px;
+}
+
+.menu-desktop {
+    display: none;
+}
+
+.menu-desktop ul li {
+    display: inline;
+}
+
+.menu-desktop ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding-left: 20px;
+    color: white;
+}
+
+.imgbar > img {
+    max-width: 50%;
+}
+
+.menu-mobile img {
+    max-width: 45px;
+}
+
+ 
+/* header */
+
+header {
+    background: url(../img/bg-banner-escuro.png);
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 25px;
+}
+
+header > div {
+    text-align: left;
+    max-width: 600px;
+}
+
+header .btn1 {
+    font-weight: 600;
+    background-color:  #e4b7e5;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+header h2 {
+    font-size: 15px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Perfil */
+
+.perfil {
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.persona img {
+    width: 100%;
+    padding: 15px;
+}
+
+.sobre-persona {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.caixa {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 30%;
+    border: 3px solid #63458a;
+    margin: 10px;
+}
+
+
+/* História */
+
+.historia {
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.historia h2 {
+    padding: 15px 0;
+}
+
+.historia p {
+    padding: 10px 0;
+}
+
+.historia img {
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Autora */
+
+.autora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4b7e5;
+    padding: 30px;
+}
+
+.autora img {
+    width: 150px;
+    transform: rotate(-90deg);
+}
+
+.autora > div {
+   line-height: 30px;
+    text-align: left;
+}
+
+.autora a{
+    text-decoration: none;
+}
+
+/* Recomendados */
+
+.recomendados {
+    padding: 30px 0;
+}
+
+.recomendados h2 {
+    text-align: center;
+}
+
+.recomendados div {
+    display: flex;
+    flex-direction: column;
+    background-color: #e4b7e5;
+    margin: 20px 0;
+}
+
+.recomendados h3 {
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.recomendados p {
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.recomendados a {
+    color: #63458a;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+
+/* Footer */
+
+.geral {
+    background-color: rgb(66, 65, 65);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 1em;
+    width: 100%;
+    justify-content: center;
+}
+
+.menu {
+    padding: 20px 0;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo p {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.logo img {
+    width: 200px;
+    justify-content: center;
+}
+
+.redes {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes h2 {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 15px;
+    color: white;
+}
+
+.redes img {
+    width: 20px;
+    display: inline;
+    justify-content: center;
+}
+
+.rodape {
+    background-color: rgb(41, 39, 39);
+    font-size: 8px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'roboto', arial;
+}
+
+.rodape h2 {
+    color: white;
+}
